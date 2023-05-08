@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+    
+}
+header {
+    background-image: linear-gradient(to bottom, #39CE7C, #2B9A5C, #1D683E, #1A5C38);
+    color: white;
+    margin-top: -20px;
+    padding: 10px;
+}
+h2#title {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*font-family: iDroid;
+    src: url(fontes/idroid.otf) format(opentype);*/
+}
+p#slogan {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.582);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+nav > a {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 15px;
+
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+main {
+    background-color: white;
+    width: 80%;
+    margin: 0px auto 0px auto;
+    padding: 15px;
+    box-shadow: 0 0 5px 4px #58505027;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+h2#titleContent {
+    font-family: iDroid;
+    src: url(fontes/idroid.otf) format(opentype);
+    color: #1A5C38; 
+}
+.parContent{
+    text-indent: 20px;
+    text-align: justify;
+}
+.subTtleContent{
+    font-family: iDroid;
+    src: url(fontes/idroid.otf) format(opentype);
+    color: #1A5C38; 
+    background-color: #84e1ac4b;
+}
+.linkPar {
+    color: #1A5C38;
+    font-weight: bold;
+    text-decoration: none; 
+}
+section#boxBottom {
+    background-color: #84e1ac79;
+    border-radius: 8px;
+    padding: 20px;
+}
+header#headerBox {
+    background-image: linear-gradient(to bottom, #39CE7C, #2B9A5C, #1D683E, #1A5C38);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.itemBox {
+    text-decoration-color: black;
+    color: black;
+    font-weight: bold;
+}
+footer {
+    background-image: linear-gradient(to bottom, #39CE7C, #2B9A5C, #1D683E, #1A5C38);
+}
+p#parfooter {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+strong {
+    color: white;
+}
